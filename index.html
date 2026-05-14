@@ -16,22 +16,46 @@
         <nav class="navbar">
                 <p>Projeto Dragon <span style="color: var(--dbz-red);" >Ball Z API</span></p>
                 <ul class="nav-list dbz-font">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Projeto</a></li>
-                    <li><a href="#">API</a></li>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#project">Projeto</a></li>
+                    <li><a href="#api-doc">API</a></li>
                 </ul>
         </nav>
         <section class="hero-section">
                 <img src="/assets/imgs/Dragon_Ball_Z_logo.svg.png" alt="Logo Dragon Ball Z">
         </section>
-        
-        
     </header>
-
-    <div id="cards-container">
-        
-    </div>
+    <main class="main-container">
+        <dialog id="details-modal" class="modal">
+            <div class="modal-header">
+                <h2 id="modal-nome" class="modal-title">Elevando o Ki...</h2>
+                <button id="fechar-modal" class="close-btn">&times;</button>
+            </div>
     
+            <div class="modal-body">
+                <img id="modal-imagem" src="" alt="">
+                <div id="modal-infos">
+                </div>
+            </div>
+        </dialog>
+        <section id="cards-container">
+            
+        </section>
+        <button id="more-chars">Carregar Mais</button>
+        <section id="project">
+            <div class="project-text">
+            <h2>Sobre o Projeto</h2>
+            <p>Este projeto foi desenvolvido como trabalho de conclusão da disciplina de Web Programming for Front-End. </p>
+            <p>O objetivo principal foi construir uma aplicação web capaz de consumir e exibir dados de uma API externa de personagens. Seguindo os requisitos técnicos propostos, a interface foi construída estritamente com HTML, CSS e JavaScript Vanilla, sendo a renderização dos cards e modais feita de forma 100% dinâmica através da manipulação do DOM.</p>
+            <p>Além de proporcionar ótimos desafios técnicos de lógica e assincronicidade, desenvolver essa aplicação foi um processo extremamente divertido, unindo a resolução de problemas reais de programação com a nostalgia de trabalhar com os personagens que marcaram a minha infância.</p>
+
+            </div>
+            <div class="project-img"></div>
+        </section>
+        <footer> 
+            <p>Feito por <span style="color: var(--dbz-red);">João Victor Inácio</span> - 2026 | <a id="api-doc" href="https://web.dragonball-api.com/documentation" target="_blank" rel="noreferrer">Documentação sobre a API </a> | <a href="/assets/imgs/thanks.gif" target="_blank" rel="noreferrer">Obrigado!!</a></p>
+        </footer>
+    </main>
     
 </body>
 </html>

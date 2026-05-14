@@ -31,6 +31,9 @@ Abaixo estão algumas telas mostrando o layout e o funcionamento do projeto:
 - **CSS3** (Flexbox, CSS Masks, Variáveis e Efeitos de Hover)
 - **JavaScript Vanilla** (ES6+, DOM API, Fetch API, Promises)
 
+## Projeto ao vivo
+- [Clique aqui para testar o projeto](https://dbz-api-two.vercel.app/).
+
 ## 💻 Como executar o projeto
 
 1. Faça o clone deste repositório:
